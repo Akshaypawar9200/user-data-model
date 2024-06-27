@@ -9,16 +9,16 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.UUID,
       },
-      firstName: {
+      first_name: {
         type: Sequelize.STRING,
       },
-      lastName: {
+      last_name: {
         type: Sequelize.STRING,
       },
       email: {
         type: Sequelize.STRING,
       },
-      phoneNumber: {
+      contact_number: {
         type: Sequelize.INTEGER,
       },
       created_at: {
